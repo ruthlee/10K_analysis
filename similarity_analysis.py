@@ -1112,4 +1112,5 @@ for i in range(len(ticker_list)):
     
     plot(ticker_list[i], data)
 
-
+# print a document for cik_dict so we can have an easy reference for folder names
+# ticker_cik_df.to_csv('ticker_CIK.csv')
