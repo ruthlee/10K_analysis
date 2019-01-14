@@ -1,0 +1,9 @@
+# Analyzing Stock SEC Filings
+
+10Ks are long and boring to read, but contain valuable information about the kinds of risks a company is facing. Research (and practical experience) suggests that stock price is correlated with the year over year change in 10K language and with negative sentiment increase in the 10K. Fortunately, Natural Language Processing (NLP) is a machine-learning technique that analyzes bodies of texts and their positive and negative sentiments. The aim is to use NLP to analyze 10Ks and find possible arbitrage opportunities in the market. 
+
+Along the way, we provide some functionality for private investors like my dad (who inspired this project to begin with).
+
+- Data Scraping: Notebooks  
+
+  
