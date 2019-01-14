@@ -4,7 +4,7 @@
 
 Along the way, we provide some functionality for private investors like my dad (who inspired this project to begin with).
 
-##Contents 
+## Contents 
 - ```research```: file containing some preliminary notes and resources for initial research purposes.
 - ```data_scrape_notebooks```: This file contains Jupyter Notebooks that gather and clean data from the SEC's website. Most of the code (save a few edits) come from [this](https://www.quantopian.com/posts/scraping-10-ks-and-10-qs-for-alpha) fantastic source. Also here is a python script where I used a lot of the code from the notebook to automate the data collection and to spit out a pdf of the similarity scores for each ticker of interest. 
 - ```similarity_analysis.py```: using the data scraping notebooks, I put all the relevant functions in a giant script to automate the data collection/cleaning process for tickers of interest. The ```similarity_analysis_windows.py``` script is my attempt to make this script usable on my dad's vanilla PC. If you like reading about programmers in distress, read ```trials_tribulations.md``` to see my account of that process. 
